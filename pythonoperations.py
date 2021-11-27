@@ -20,8 +20,9 @@ def principles():
  f= aa - bb
  #Addition
  g= aa + bb 
-
- Variable = input()
+ # to input a integer by casting
+ Variable = int(input())
+ #conditions with giving a string on each case
  if Variable == 'expo' :
      print('a ** b =',a)
  elif Variable == 'modulus' :
@@ -33,8 +34,12 @@ def principles():
  elif Variable == 'substraction' : print('a - b =',f)
  elif Variable == 'addition' : print('a + b =',g)
 
- 
-
+#while loop
+ spam = 0
+ itteration = int(input())
+ while spam < itteration :
+    print('its' ,itteration )
+    spam = spam + 1
 
 
 
